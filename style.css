@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+html{
+  font-size: 10px;
+}
+
 .container{
     background-color: #13C697;
     width: 100%;

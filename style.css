@@ -27,7 +27,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 14px;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
 

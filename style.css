@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -104,4 +104,11 @@ body {
     width: 10px;
     background-color: #4f4c4c;
     border-radius: 50%;
+}
+
+@media screen and (max-width:700px){
+  .online-status{
+    top: 24px;
+    right: 14px;
+  }
 }

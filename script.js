@@ -52,7 +52,7 @@ copyBtn.addEventListener("click", () => {
   }
 });
 
-if(onlineStatus){
+if(navigator.onLine){
   statusElement.style.backgroundColor = "#0ec764";
   statusElementTxt.innerText = "Online";
   statusElementContainer.style.border = "1px solid #0ec764";

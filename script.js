@@ -80,4 +80,4 @@ setInterval(()=>{
   statusElementContainer.style.boxShadow = "0px 0px 8px 4px red";
   console.log("Checking Offline...")
 }
-},1000/2)
+},1000*2)

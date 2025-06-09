@@ -53,6 +53,19 @@ copyBtn.addEventListener("click", () => {
   }
 });
 
+if(onlineStatus){
+  statusElement.style.backgroundColor = "#0ec764";
+  statusElementTxt.innerText = "Online";
+  statusElementContainer.style.border = "1px solid #0ec764";
+  statusElementContainer.style.boxShadow = "0px 0px 8px 4px #0ec764";
+
+}else{
+  statusElement.style.backgroundColor = "red";
+  statusElementTxt.innerText = "Offline";
+  statusElementContainer.style.border = "1px solid red";
+  statusElementContainer.style.boxShadow = "0px 0px 8px 4px red";
+}
+
 setInterval(()=>{
   if(onlineStatus){
   statusElement.style.backgroundColor = "#0ec764";

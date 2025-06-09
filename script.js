@@ -53,7 +53,8 @@ copyBtn.addEventListener("click", () => {
   }
 });
 
-if(onlineStatus){
+setInterval(()=>{
+  if(onlineStatus){
   statusElement.style.backgroundColor = "#0ec764";
   statusElementTxt.innerText = "Online";
   statusElementContainer.style.border = "1px solid #0ec764";
@@ -65,3 +66,4 @@ if(onlineStatus){
   statusElementContainer.style.border = "1px solid red";
   statusElementContainer.style.boxShadow = "0px 0px 8px 4px red";
 }
+},5*1000)

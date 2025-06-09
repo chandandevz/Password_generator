@@ -72,7 +72,7 @@ setInterval(()=>{
   statusElementContainer.style.border = "1px solid #0ec764";
   statusElementContainer.style.boxShadow = "0px 0px 8px 4px #0ec764";
   console.log("Checking Online...")
-  console.log(onlineStatus)
+  console.log(navigator.onLine)
   }else{
   statusElement.style.backgroundColor = "red";
   statusElementTxt.innerText = "Offline";

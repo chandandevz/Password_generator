@@ -10,7 +10,6 @@ const copyBtn = document.getElementById("copy-btn");
 const statusElement = document.querySelector(".online")
 const statusElementTxt = document.querySelector(".status-txt")
 const statusElementContainer = document.querySelector(".online-status")
-const onlineStatus = navigator.onLine
 
 rangeValue.innerText = rangeBar.value;
 rangeBar.addEventListener("input", () => {
@@ -67,7 +66,7 @@ if(onlineStatus){
 }
 
 setInterval(()=>{
-  if(onlineStatus){
+  if(navigator.onLine){
   statusElement.style.backgroundColor = "#0ec764";
   statusElementTxt.innerText = "Online";
   statusElementContainer.style.border = "1px solid #0ec764";
